@@ -17,9 +17,10 @@ body {
 }
 
 .profile-pic {
-  width: 140px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 20px;
 }
 
 .subtitle {
