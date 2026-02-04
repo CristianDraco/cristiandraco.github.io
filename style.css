@@ -23,13 +23,6 @@ body {
   border-radius: 50%;
 }
 
-.project-pic {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
 .subtitle {
   color: #555;
   margin-top: 10px;
@@ -110,4 +103,11 @@ footer {
   padding: 20px;
   font-size: 0.85em;
   color: #666;
+}
+
+.project-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
