@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding: 20px;
-  background: #f9f9f9;
+  background-color: #f7f7f7;
   color: #333;
 }
 
@@ -16,10 +16,27 @@ h1 {
   margin-bottom: 5px;
 }
 
+h2 {
+  margin-top: 0;
+  color: #555;
+}
+
 section {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+article {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 ul {
   padding-left: 20px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
 }
