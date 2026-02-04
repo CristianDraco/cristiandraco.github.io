@@ -4,116 +4,163 @@
   <meta charset="UTF-8" />
   <title>Cristian Draco | QA Engineer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Cristian Eduardo Draco Gaviria</h1>
+  <!-- HERO -->
+  <header class="hero">
+    <img src="assets/profile.jpg" alt="Profile photo" class="profile-pic">
+
+    <h1>Cristian Draco</h1>
     <h2>Junior QA Engineer</h2>
-    <p>
-      Manual Testing · API Testing · Jira · Postman
+
+    <p class="subtitle">
+      Manual & API Testing · Jira · Postman · Requirements-driven testing
     </p>
-    <p>
-      📍 Popayán, Colombia · 🌍 Open to Remote
-    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Contact</a>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:cristiandracogaviria@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
   </header>
 
-  <section>
-    <h3>About Me</h3>
-    <p>
-      I am a Junior QA Engineer with hands-on experience in manual and API testing,
-      focused on ensuring software quality through structured test design,
-      early bug detection, and clear documentation.
-    </p>
-    <p>
-      I have worked on real-world QA projects where I designed test cases,
-      validated REST APIs, executed regression and smoke tests,
-      and tracked defects using Jira and Postman in Agile environments.
-    </p>
-  </section>
+  <main>
 
-  <section>
-    <h3>Technical Skills</h3>
-    <ul>
-      <li><strong>Testing:</strong> Manual Testing, UI Testing, API Testing</li>
-      <li><strong>Test Design:</strong> Test Cases, Test Scenarios, Smoke & Regression Testing</li>
-      <li><strong>Tools:</strong> Jira, Postman, Chrome DevTools, Google Sheets</li>
-      <li><strong>Protocols & Data:</strong> HTTP/HTTPS, JSON</li>
-      <li><strong>Methodologies:</strong> Agile, Scrum</li>
-      <li><strong>Scripting:</strong> JavaScript (basic), Python (basic)</li>
-    </ul>
-  </section>
+    <!-- ABOUT -->
+    <section class="section">
+      <h3>About Me</h3>
+      <div class="divider"></div>
 
-  <section>
-    <h3>QA Projects</h3>
-
-    <article>
-      <h4>Urban Routes – Web Application Testing</h4>
       <p>
-        Designed and executed functional test cases for core application features.
-        Created mind maps, flow diagrams, equivalence classes, and boundary value analysis
-        to ensure full coverage of business rules and validations.
+        Junior QA Engineer with hands-on experience in manual and API testing,
+        focused on ensuring software quality through structured test design,
+        early bug detection and clear documentation.
       </p>
-      <p>
-        Performed smoke and regression testing, documented bugs with clear reproduction steps,
-        and tracked issues using Google Sheets and Jira.
-      </p>
-      <p><strong>Tools:</strong> Jira, Google Sheets, Draw.io</p>
-    </article>
 
-    <article>
-      <h4>Urban Routes – Cross-Browser UI Testing</h4>
       <p>
-        Executed UI and functional tests across multiple browsers and screen resolutions
-        (Chrome 800x600, Firefox 1920x1080) to validate consistent behavior.
+        I have worked on real QA projects involving test case design,
+        regression and smoke testing, API validation and defect tracking
+        using Jira and Postman in Agile environments.
       </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section light">
+      <h3>Technical Skills</h3>
+      <div class="divider"></div>
+
+      <div class="skills-grid">
+        <div>
+          <h4>Testing</h4>
+          <ul>
+            <li>Manual Testing</li>
+            <li>UI Testing</li>
+            <li>API Testing</li>
+            <li>Smoke & Regression</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li>Jira</li>
+            <li>Postman</li>
+            <li>Chrome DevTools</li>
+            <li>Google Sheets</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Other</h4>
+          <ul>
+            <li>Test Case Design</li>
+            <li>Bug Tracking</li>
+            <li>HTTP / JSON</li>
+            <li>Agile / Scrum</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h3>QA Projects</h3>
+      <div class="divider"></div>
+
+      <div class="card">
+        <h4>Urban Routes – Web Application Testing</h4>
+        <p>
+          Designed and executed functional test cases for core features.
+          Applied equivalence classes, boundary value analysis,
+          flow diagrams and mind maps to ensure full coverage.
+        </p>
+        <p class="tools">
+          Tools: Jira · Google Sheets · Draw.io
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Urban Routes – Cross-Browser UI Testing</h4>
+        <p>
+          Executed UI and functional tests across different browsers
+          and screen resolutions. Validated system behavior against
+          requirements and design specifications.
+        </p>
+        <p class="tools">
+          Tools: Figma · Jira · DevTools
+        </p>
+      </div>
+
+      <div class="card">
+        <h4>Urban Grocers – API Testing</h4>
+        <p>
+          Analyzed backend requirements, designed API test cases
+          and executed requests in Postman.
+          Validated responses, status codes and error handling.
+        </p>
+        <p class="tools">
+          Tools: Postman · ApiDoc · Jira
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section light">
+      <h3>Transferable Experience</h3>
+      <div class="divider"></div>
+
       <p>
-        Analyzed requirements versus design specifications using Figma
-        and defined validation criteria when discrepancies were found.
+        Background in structured, rule-based environments
+        with strong focus on procedures, issue detection,
+        checklists and clear communication — all directly
+        transferable to QA roles.
       </p>
-      <p><strong>Tools:</strong> Figma, Jira, DevTools, Google Sheets</p>
-    </article>
+    </section>
 
-    <article>
-      <h4>Urban Grocers – API Testing</h4>
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h3>Contact</h3>
+      <div class="divider"></div>
+
       <p>
-        Analyzed backend requirements related to delivery services and kits.
-        Identified endpoints, HTTP methods, headers, authentication, and parameters
-        using API documentation.
+        📍 Popayán, Colombia · Open to Remote<br>
+        📧 cristiandracogaviria@gmail.com
       </p>
-      <p>
-        Designed and executed API test cases in Postman,
-        validated status codes and response bodies,
-        and reported backend defects in Jira.
-      </p>
-      <p><strong>Tools:</strong> Postman, ApiDoc, Jira, Google Sheets</p>
-    </article>
+    </section>
 
-  </section>
-
-  <section>
-    <h3>Professional Experience (Transferable Skills)</h3>
-    <p>
-      Experience working in structured, rule-based environments
-      with strong focus on procedures, attention to detail,
-      issue detection, and clear communication.
-    </p>
-    <ul>
-      <li>Process validation and checklist-based work</li>
-      <li>Issue detection and incident reporting</li>
-      <li>Team collaboration in dynamic environments</li>
-    </ul>
-  </section>
-
-  <section>
-    <h3>Contact</h3>
-    <p>
-      📧 <a href="mailto:cristiandracogaviria@gmail.com">cristiandracogaviria@gmail.com</a><br>
-      💼 <a href="https://www.linkedin.com">LinkedIn</a><br>
-      💻 <a href="https://github.com">GitHub</a>
-    </p>
-  </section>
+  </main>
 
   <footer>
     <p>© 2026 · Cristian Draco · QA Engineer</p>
@@ -121,3 +168,4 @@
 
 </body>
 </html>
+
