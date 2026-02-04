@@ -23,6 +23,13 @@ body {
   border-radius: 50%;
 }
 
+.project-pic {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .subtitle {
   color: #555;
   margin-top: 10px;
