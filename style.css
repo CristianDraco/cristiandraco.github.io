@@ -113,3 +113,12 @@ footer {
   margin: 20px auto;  /* centra la imagen */
   border-radius: 10px;
 }
+
+.project4-pic {
+  width: 100%;
+  max-width: 520px;   /* ← AQUÍ está la magia */
+  height: auto;
+  display: block;
+  margin: 20px auto;  /* centra la imagen */
+  border-radius: 10px;
+}
