@@ -22,7 +22,27 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+  
+.project4-pic {
+  width: 100%;
+  max-width: 700px;   /* tamaño cómodo */
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: block;
 
+}
+
+.project-img {
+  width: 100%;
+  max-width: 700px;   /* tamaño cómodo */
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: block;
+}
+
+}
 .subtitle {
   color: #555;
   margin-top: 10px;
