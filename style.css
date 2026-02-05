@@ -107,7 +107,7 @@ footer {
 
 .project-pic {
   width: 100%;
-  max-width: 1020px;   /* ← AQUÍ está la magia */
+  max-width: 610px;   /* ← AQUÍ está la magia */
   height: auto;
   display: block;
   margin: 20px auto;  /* centra la imagen */
@@ -116,7 +116,7 @@ footer {
 
 .project4-pic {
   width: 100%;
-  max-width: 1020px;   /* ← AQUÍ está la magia */
+  max-width: 610px;   /* ← AQUÍ está la magia */
   height: auto;
   display: block;
   margin: 20px auto;  /* centra la imagen */
@@ -125,7 +125,7 @@ footer {
 
 .project1-pic {
   width: 100%;
-  max-width: 1020px;   /* ← AQUÍ está la magia */
+  max-width: 610px;   /* ← AQUÍ está la magia */
   height: auto;
   display: block;
   margin: 20px auto;  /* centra la imagen */
