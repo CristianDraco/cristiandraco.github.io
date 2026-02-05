@@ -23,19 +23,6 @@ body {
   border-radius: 50%;
 }
 
-.img-container {
-  max-width: 100%;
-  overflow: hidden;      /* ← esto evita que se salga */
-}
-
-.project-pic {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
 .subtitle {
   color: #555;
   margin-top: 10px;
@@ -116,4 +103,13 @@ footer {
   padding: 20px;
   font-size: 0.85em;
   color: #666;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.img-container {
+  overflow: hidden;
 }
