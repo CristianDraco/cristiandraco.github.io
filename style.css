@@ -123,9 +123,9 @@ footer {
   border-radius: 10px;
 }
 
-.proyecto1-pic {
+.project1-pic {
   width: 100%;
-  max-width: 610px;   /* ← AQUÍ está la magia */
+  max-width: 1020px;   /* ← AQUÍ está la magia */
   height: auto;
   display: block;
   margin: 20px auto;  /* centra la imagen */
