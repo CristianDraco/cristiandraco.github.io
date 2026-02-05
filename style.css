@@ -42,6 +42,12 @@ body {
   display: block;
 }
 
+@media (max-width: 600px) {
+  .project-img {
+    max-width: 100%;
+  }
+}
+
 }
 .subtitle {
   color: #555;
