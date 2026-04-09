@@ -132,3 +132,21 @@ footer {
   margin: 20px auto;  /* centra la imagen */
   border-radius: 10px;
 }
+
+/* Centrar contenido dentro de cada proyecto */
+.card {
+  text-align: center;
+}
+
+/* Mantener textos alineados y con ancho controlado */
+.card p,
+.card ul {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+/* Centrar títulos */
+.card h3 {
+  text-align: center;
+}
