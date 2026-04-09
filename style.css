@@ -147,17 +147,6 @@ body {
   border-radius: 10px;
 }
 
-/* Imagen más pequeña (proyecto 1) */
-.project1-pic {
-  width: 100%;
-  max-width: 610px;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 10px;
-}
-
-
 /* =========================
    FOOTER
 ========================= */
