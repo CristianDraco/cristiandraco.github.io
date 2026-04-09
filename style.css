@@ -133,19 +133,8 @@ footer {
   border-radius: 10px;
 }
 
-/* Ajuste para evitar que los proyectos y textos largos se crucen */
-section {
-  margin-bottom: 40px;
-}
-
-.card {
-  margin-bottom: 20px;
-}
-
-.card h4 {
-  margin-bottom: 10px;
-}
-
-.card p {
-  margin-bottom: 10px;
+/* Mantener alineación entre cards con y sin iconos */
+.card h3 i {
+  width: 25px;
+  display: inline-block;
 }
