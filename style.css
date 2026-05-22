@@ -109,18 +109,36 @@ body {
 /* Cards */
 .card {
   background: #1c2330;
-  padding: 20px;
+  padding: 28px;
   border-radius: 12px;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 24px auto;
   max-width: 900px;
   border: 1px solid #2b3442;
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card ul {
+  padding-left: 22px;
+  margin-top: 12px;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+.section p {
+  text-align: left;
+  line-height: 1.8;
 }
 
 .card h3,
 .card p,
 .card li {
   color: #f1f1f1;
+  text-align: left;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  word-break: break-word;
 }
 
 .tools {
