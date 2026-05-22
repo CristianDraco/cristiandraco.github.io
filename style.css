@@ -5,15 +5,16 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #f4f6f8;
-  color: #222;
+  background: #0d1117;
+  color: #f1f1f1;
 }
 
 /* HERO */
 .hero {
-  background: black;
+  background: #111827;
   text-align: center;
   padding: 60px 20px;
+  border-bottom: 1px solid #1f2937;
 }
 
 .profile-pic {
@@ -21,10 +22,11 @@ body {
   height: 130px;
   object-fit: cover;
   border-radius: 50%;
+  border: 3px solid #3d8d74;
 }
 
 .subtitle {
-  color: #555;
+  color: #b0b7c3;
   margin-top: 10px;
 }
 
@@ -39,23 +41,38 @@ body {
   text-decoration: none;
   font-weight: 600;
   margin: 0 6px;
+  transition: 0.3s ease;
 }
 
 .primary {
-  background: #0a66c2;
+  background: #3d8d74;
   color: white;
 }
 
+.primary:hover {
+  background: #4aa386;
+}
+
 .secondary {
-  border: 2px solid #0a66c2;
-  color: #0a66c2;
+  border: 2px solid #3d8d74;
+  color: #3d8d74;
+}
+
+.secondary:hover {
+  background: #3d8d74;
+  color: white;
 }
 
 /* Socials */
 .socials a {
-  color: #333;
+  color: #d1d5db;
   margin: 0 10px;
   font-size: 22px;
+  transition: 0.3s ease;
+}
+
+.socials a:hover {
+  color: #3d8d74;
 }
 
 /* Sections */
@@ -66,14 +83,15 @@ body {
 }
 
 .section.light {
-  background: white;
+  background: #161b22;
+  border-radius: 12px;
 }
 
 /* Divider */
 .divider {
   width: 60px;
   height: 3px;
-  background: #0a66c2;
+  background: #3d8d74;
   margin: 15px 0 30px 0;
 }
 
@@ -86,17 +104,24 @@ body {
 
 /* Cards */
 .card {
-  background: white;
+  background: #1c2330;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 0 auto 20px auto;
   max-width: 900px;
-  
+  border: 1px solid #2b3442;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.card h3,
+.card p,
+.card li {
+  color: #f1f1f1;
 }
 
 .tools {
   font-size: 0.9em;
-  color: #555;
+  color: #b0b7c3;
 }
 
 /* Footer */
@@ -104,32 +129,28 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 0.85em;
-  color: #666;
+  color: #9ca3af;
+  border-top: 1px solid #1f2937;
 }
 
-.project-pic {
-  width: 100%;
-  max-width: 1020px;   /* ← AQUÍ está la magia */
-  height: auto;
-  display: block;
-  margin: 20px auto;  /* centra la imagen */
-  border-radius: 10px;
-}
-
+/* Project Images */
+.project-pic,
 .project4-pic {
   width: 100%;
-  max-width: 1020px;   /* ← AQUÍ está la magia */
+  max-width: 1020px;
   height: auto;
   display: block;
-  margin: 20px auto;  /* centra la imagen */
+  margin: 20px auto;
   border-radius: 10px;
+  border: 1px solid #2b3442;
 }
 
 .project1-pic {
   width: 100%;
-  max-width: 610px;   /* ← AQUÍ está la magia */
+  max-width: 610px;
   height: auto;
   display: block;
-  margin: 20px auto;  /* centra la imagen */
+  margin: 20px auto;
   border-radius: 10px;
+  border: 1px solid #2b3442;
 }
